@@ -23,3 +23,7 @@ addopts = "-q"
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+
+[tool.ruff.lint.per-file-ignores]
+# Notebooks legitimately need path/setup code before imports (E402).
+"*.ipynb" = ["E402"]

@@ -55,7 +55,7 @@ jupyter lab      # open the notebooks
 pytest           # run tests for the systems sections
 ```
 
-Track progress in [`PROGRESS.md`](PROGRESS.md) and see the full learning path in [`ROADMAP.md`](ROADMAP.md). *(Both arrive with the first scaffold build.)*
+Track progress in [`PROGRESS.md`](PROGRESS.md) and see the full learning path — with the prerequisite graph and milestone phases — in [`ROADMAP.md`](ROADMAP.md).
 
 ## License
 
