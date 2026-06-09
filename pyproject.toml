@@ -28,6 +28,8 @@ line-length = 100
 target-version = "py312"
 
 [tool.ruff.lint.per-file-ignores]
-# Notebooks legitimately need path/setup code before imports (E402), and use
-# single-letter math names (I for identity, etc.) that trip E741.
-"*.ipynb" = ["E402", "E741"]
+# Notebooks legitimately need path/setup code before imports (E402), use
+# single-letter math names (I for identity, etc.) that trip E741, and define
+# dataclasses in later cells with `from __future__ import annotations` (F404 is a
+# false positive across concatenated cells).
+"*.ipynb" = ["E402", "E741", "F404"]
