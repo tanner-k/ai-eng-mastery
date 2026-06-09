@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Model / checkpoint artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# OS
+.DS_Store
+
+# Local design specs — kept off the public repo
+docs/superpowers/
