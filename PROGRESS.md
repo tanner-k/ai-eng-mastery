@@ -5,10 +5,10 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Topic | Notes | Impl | Interview | Exercises |
 | --- | --- | --- | --- | --- |
 | **Linear Algebra** | | | | |
-| Matrix Multiplication | ✅ | ⬜ | ✅ | ✅ |
-| Broadcasting | ✅ | ⬜ | ✅ | ✅ |
-| Vectors and Norms | ✅ | ⬜ | ✅ | ✅ |
-| Eigendecomposition and SVD | ✅ | ⬜ | ✅ | ✅ |
+| Matrix Multiplication | ✅ | ✅ | ✅ | ✅ |
+| Broadcasting | ✅ | ✅ | ✅ | ✅ |
+| Vectors and Norms | ✅ | ✅ | ✅ | ✅ |
+| Eigendecomposition and SVD | ✅ | ✅ | ✅ | ✅ |
 | **Calculus** | | | | |
 | Derivatives and Partials | ✅ | ⬜ | ✅ | ✅ |
 | The Chain Rule | ✅ | ⬜ | ✅ | ✅ |
