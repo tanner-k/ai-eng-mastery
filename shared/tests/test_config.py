@@ -50,3 +50,26 @@ def test_seed_everything_is_reproducible():
     seed_everything(123)
     b = torch.randn(5)
     assert torch.equal(a, b)
+
+
+def test_env_override_seed(monkeypatch):
+    monkeypatch.setenv("AIEM_SEED", "7")
+    assert load_settings().seed == 7
+
+
+def test_invalid_seed_raises(monkeypatch):
+    monkeypatch.setenv("AIEM_SEED", "not-an-int")
+    with pytest.raises(ValueError):
+        load_settings()
+
+
+def test_configure_returns_device_and_is_reproducible(monkeypatch):
+    monkeypatch.setenv("AIEM_DEVICE", "cpu")
+    from shared.config import configure
+
+    device = configure()
+    assert device.type == "cpu"
+    a = torch.randn(4)
+    configure()
+    b = torch.randn(4)
+    assert torch.equal(a, b)

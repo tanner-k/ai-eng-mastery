@@ -52,7 +52,11 @@ def load_settings(path: Path | None = None) -> Settings:
             data = tomllib.load(f).get("runtime", {})
 
     device = os.environ.get("AIEM_DEVICE", data.get("device", "auto"))
-    seed = int(os.environ.get("AIEM_SEED", data.get("seed", 0)))
+    raw_seed = os.environ.get("AIEM_SEED", data.get("seed", 0))
+    try:
+        seed = int(raw_seed)
+    except (ValueError, TypeError) as exc:
+        raise ValueError(f"AIEM_SEED must be an integer, got {raw_seed!r}") from exc
     dtype = os.environ.get("AIEM_DTYPE", data.get("dtype", "float32"))
 
     if device not in _VALID_DEVICES:
@@ -78,8 +82,8 @@ def resolve_dtype(settings: Settings | None = None) -> torch.dtype:
 
 def seed_everything(seed: int | None = None) -> int:
     """Seed Python and torch RNGs for reproducibility; returns the seed used."""
-    settings = load_settings()
-    seed = settings.seed if seed is None else seed
+    if seed is None:
+        seed = load_settings().seed
     random.seed(seed)
     torch.manual_seed(seed)
     if torch.cuda.is_available():
@@ -96,6 +100,11 @@ def configure(settings: Settings | None = None) -> torch.device:
 
         from shared.config import configure
         device = configure()
+
+    Warning:
+        Calls ``torch.set_default_dtype``, which mutates process-global PyTorch
+        state. Call this only at a process entry point (a notebook or training
+        script) — never from library code or unit tests.
     """
     settings = settings or load_settings()
     seed_everything(settings.seed)
@@ -103,6 +112,8 @@ def configure(settings: Settings | None = None) -> torch.device:
     return resolve_device(settings)
 
 
+# Computed once at import. Tests should call load_settings() directly;
+# monkeypatching env vars does NOT retroactively update these module-level constants.
 SETTINGS = load_settings()
 DEVICE = resolve_device(SETTINGS)
 DTYPE = resolve_dtype(SETTINGS)
