@@ -27,5 +27,6 @@ line-length = 100
 target-version = "py312"
 
 [tool.ruff.lint.per-file-ignores]
-# Notebooks legitimately need path/setup code before imports (E402).
-"*.ipynb" = ["E402"]
+# Notebooks legitimately need path/setup code before imports (E402), and use
+# single-letter math names (I for identity, etc.) that trip E741.
+"*.ipynb" = ["E402", "E741"]
