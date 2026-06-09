@@ -22,8 +22,8 @@ y_i = gamma xhat_i + beta
 During inference, batch norm uses running estimates accumulated during training:
 
 ```text
-running_mean <- momentum * running_mean + (1 - momentum) * batch_mean
-running_var  <- momentum * running_var  + (1 - momentum) * batch_var
+running_mean <- (1 - momentum) * running_mean + momentum * batch_mean
+running_var  <- (1 - momentum) * running_var  + momentum * batch_var
 ```
 
 Exact momentum conventions vary by framework, so read the API carefully.

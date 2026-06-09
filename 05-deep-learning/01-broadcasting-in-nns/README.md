@@ -21,12 +21,14 @@ The bias is conceptually expanded to `(B, D)`, but frameworks usually implement 
 For affine layers:
 
 ```text
-Z = XW + b
+Z = X @ W.T + b
 X in R^(B x Din)
-W in R^(Din x Dout)
+W in R^(Dout x Din)   # matches nn.Linear's weight storage: W.shape == (out_features, in_features)
 b in R^(Dout)
 Z in R^(B x Dout)
 ```
+
+Note: `nn.Linear` stores `W` with shape `(Dout, Din)` and applies it as `X @ W.T`, so the convention here matches PyTorch's implementation directly.
 
 The forward pass broadcasts `b` over the batch axis. During backpropagation, the gradient for a broadcasted tensor must sum over every axis that was expanded:
 
