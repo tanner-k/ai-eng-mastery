@@ -194,6 +194,7 @@ print(f"Cosine schedule — final loss: {cosine_losses[-1]:.6f}")
 ## Solution 4 — Diverging learning rate
 
 ```python
+import math
 import torch
 from gd.models import LinearModel
 from gd.optimizers import SGD
