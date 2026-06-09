@@ -1,4 +1,3 @@
-import torch
 from matplotlib.axes import Axes
 from shared.plotting import plot_loss_surface, plot_descent_path
 
