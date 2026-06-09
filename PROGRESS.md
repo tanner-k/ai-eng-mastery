@@ -14,11 +14,11 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | The Chain Rule | ✅ | ✅ | ✅ | ✅ |
 | Gradients and Jacobians | ✅ | ✅ | ✅ | ✅ |
 | **Statistics** | | | | |
-| Probability Basics | ✅ | ⬜ | ✅ | ✅ |
-| Gaussian Distribution | ✅ | ⬜ | ✅ | ✅ |
-| MLE and Negative Log-Likelihood | ✅ | ⬜ | ✅ | ✅ |
-| Bayesian Statistics | ✅ | ⬜ | ✅ | ✅ |
-| Bias-Variance Tradeoff | ✅ | ⬜ | ✅ | ✅ |
+| Probability Basics | ✅ | ✅ | ✅ | ✅ |
+| Gaussian Distribution | ✅ | ✅ | ✅ | ✅ |
+| MLE and Negative Log-Likelihood | ✅ | ✅ | ✅ | ✅ |
+| Bayesian Statistics | ✅ | ✅ | ✅ | ✅ |
+| Bias-Variance Tradeoff | ✅ | ✅ | ✅ | ✅ |
 | **Machine Learning** | | | | |
 | Gradient Descent | ✅ | ✅ | ✅ | ✅ |
 | Loss Functions | ✅ | ⬜ | ✅ | ✅ |
