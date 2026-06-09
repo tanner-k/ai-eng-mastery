@@ -44,51 +44,51 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Label Smoothing | ✅ | ✅ | ✅ | ✅ |
 | Convolutional Neural Networks | ✅ | ✅ | ✅ | ✅ |
 | **LLM Engineering** | | | | |
-| Transformers and Attention | 🟡 | ⬜ | 🟡 | 🟡 |
-| Tokenization and Embeddings | 🟡 | ⬜ | 🟡 | 🟡 |
-| Fine-Tuning (LoRA/PEFT) | 🟡 | ⬜ | 🟡 | 🟡 |
-| RLHF and DPO | 🟡 | ⬜ | 🟡 | 🟡 |
-| Quantization and Inference Optimization | 🟡 | ⬜ | 🟡 | 🟡 |
-| LLM Evals | 🟡 | ⬜ | 🟡 | 🟡 |
+| Transformers and Attention | ⬜ | ⬜ | ⬜ | ⬜ |
+| Tokenization and Embeddings | ⬜ | ⬜ | ⬜ | ⬜ |
+| Fine-Tuning (LoRA/PEFT) | ⬜ | ⬜ | ⬜ | ⬜ |
+| RLHF and DPO | ⬜ | ⬜ | ⬜ | ⬜ |
+| Quantization and Inference Optimization | ⬜ | ⬜ | ⬜ | ⬜ |
+| LLM Evals | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Reinforcement Learning** | | | | |
-| Markov Decision Processes | 🟡 | ⬜ | 🟡 | 🟡 |
-| Value Functions | 🟡 | ⬜ | 🟡 | 🟡 |
-| Q-Learning | 🟡 | ⬜ | 🟡 | 🟡 |
-| Policy Gradients | 🟡 | ⬜ | 🟡 | 🟡 |
+| Markov Decision Processes | ⬜ | ⬜ | ⬜ | ⬜ |
+| Value Functions | ⬜ | ⬜ | ⬜ | ⬜ |
+| Q-Learning | ⬜ | ⬜ | ⬜ | ⬜ |
+| Policy Gradients | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Retrieval and RAG** | | | | |
-| RAG Architecture | 🟡 | ⬜ | 🟡 | 🟡 |
-| BM25 | 🟡 | ⬜ | 🟡 | 🟡 |
-| Semantic Retrieval | 🟡 | ⬜ | 🟡 | 🟡 |
-| Hybrid Fusion | 🟡 | ⬜ | 🟡 | 🟡 |
-| Reranking | 🟡 | ⬜ | 🟡 | 🟡 |
-| Vector Databases | 🟡 | ⬜ | 🟡 | 🟡 |
-| Chunking Strategies | 🟡 | ⬜ | 🟡 | 🟡 |
-| RAG Evaluation | 🟡 | ⬜ | 🟡 | 🟡 |
+| RAG Architecture | ⬜ | ⬜ | ⬜ | ⬜ |
+| BM25 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Semantic Retrieval | ⬜ | ⬜ | ⬜ | ⬜ |
+| Hybrid Fusion | ⬜ | ⬜ | ⬜ | ⬜ |
+| Reranking | ⬜ | ⬜ | ⬜ | ⬜ |
+| Vector Databases | ⬜ | ⬜ | ⬜ | ⬜ |
+| Chunking Strategies | ⬜ | ⬜ | ⬜ | ⬜ |
+| RAG Evaluation | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Graphs** | | | | |
-| Graph Algorithms | 🟡 | ⬜ | 🟡 | 🟡 |
-| Graph Databases | 🟡 | ⬜ | 🟡 | 🟡 |
-| GraphRAG and Agent Memory | 🟡 | ⬜ | 🟡 | 🟡 |
+| Graph Algorithms | ⬜ | ⬜ | ⬜ | ⬜ |
+| Graph Databases | ⬜ | ⬜ | ⬜ | ⬜ |
+| GraphRAG and Agent Memory | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Agentic Systems** | | | | |
-| MCP Servers and Clients | 🟡 | ⬜ | 🟡 | 🟡 |
-| LangChain | 🟡 | ⬜ | 🟡 | 🟡 |
-| LangGraph | 🟡 | ⬜ | 🟡 | 🟡 |
-| Memory for AI Agents | 🟡 | ⬜ | 🟡 | 🟡 |
+| MCP Servers and Clients | ⬜ | ⬜ | ⬜ | ⬜ |
+| LangChain | ⬜ | ⬜ | ⬜ | ⬜ |
+| LangGraph | ⬜ | ⬜ | ⬜ | ⬜ |
+| Memory for AI Agents | ⬜ | ⬜ | ⬜ | ⬜ |
 | **MLOps** | | | | |
-| Experiment Tracking | 🟡 | ⬜ | 🟡 | 🟡 |
-| Model Registry | 🟡 | ⬜ | 🟡 | 🟡 |
-| Model Serving | 🟡 | ⬜ | 🟡 | 🟡 |
-| Monitoring and Drift | 🟡 | ⬜ | 🟡 | 🟡 |
-| CI/CD for ML | 🟡 | ⬜ | 🟡 | 🟡 |
+| Experiment Tracking | ⬜ | ⬜ | ⬜ | ⬜ |
+| Model Registry | ⬜ | ⬜ | ⬜ | ⬜ |
+| Model Serving | ⬜ | ⬜ | ⬜ | ⬜ |
+| Monitoring and Drift | ⬜ | ⬜ | ⬜ | ⬜ |
+| CI/CD for ML | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Cloud and Infrastructure** | | | | |
-| Terraform and IaC | 🟡 | ⬜ | 🟡 | 🟡 |
-| Docker | 🟡 | ⬜ | 🟡 | 🟡 |
-| Kubernetes | 🟡 | ⬜ | 🟡 | 🟡 |
-| GPU Provisioning | 🟡 | ⬜ | 🟡 | 🟡 |
-| Serverless Inference | 🟡 | ⬜ | 🟡 | 🟡 |
-| Autoscaling and Cost | 🟡 | ⬜ | 🟡 | 🟡 |
+| Terraform and IaC | ⬜ | ⬜ | ⬜ | ⬜ |
+| Docker | ⬜ | ⬜ | ⬜ | ⬜ |
+| Kubernetes | ⬜ | ⬜ | ⬜ | ⬜ |
+| GPU Provisioning | ⬜ | ⬜ | ⬜ | ⬜ |
+| Serverless Inference | ⬜ | ⬜ | ⬜ | ⬜ |
+| Autoscaling and Cost | ⬜ | ⬜ | ⬜ | ⬜ |
 | **AI System Design** | | | | |
-| Design Framework | 🟡 | ⬜ | 🟡 | 🟡 |
-| Recommendation Systems | 🟡 | ⬜ | 🟡 | 🟡 |
-| Search Ranking | 🟡 | ⬜ | 🟡 | 🟡 |
-| Feature Stores | 🟡 | ⬜ | 🟡 | 🟡 |
-| Scaling Inference | 🟡 | ⬜ | 🟡 | 🟡 |
+| Design Framework | ⬜ | ⬜ | ⬜ | ⬜ |
+| Recommendation Systems | ⬜ | ⬜ | ⬜ | ⬜ |
+| Search Ranking | ⬜ | ⬜ | ⬜ | ⬜ |
+| Feature Stores | ⬜ | ⬜ | ⬜ | ⬜ |
+| Scaling Inference | ⬜ | ⬜ | ⬜ | ⬜ |
