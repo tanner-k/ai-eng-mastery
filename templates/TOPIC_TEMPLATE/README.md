@@ -16,7 +16,9 @@ _Where this shows up in practice._
 
 ## Implementation
 _From-scratch in PyTorch (manual gradients), validated against `torch.autograd`;
-idiomatic PyTorch equivalent where useful._
+idiomatic PyTorch equivalent where useful. Get the device/seed/dtype from
+`shared.config` — call `configure()` in notebooks or `resolve_device()` in
+modules. Never hardcode the device._
 
 ## Cross-links
 _Related topics: `[[...]]`._

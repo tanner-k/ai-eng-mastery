@@ -47,6 +47,28 @@ NN-topic-name/
 
 Python · **PyTorch** · Jupyter · pytest · [uv](https://github.com/astral-ai/uv) for packaging · ruff. Code is device-aware (`cpu` / `cuda` / `mps`).
 
+## Configuration
+
+System-specific settings live in one place — [`config.toml`](config.toml):
+
+```toml
+[runtime]
+device = "auto"    # auto → cuda > mps > cpu (resolves to mps on Apple Silicon)
+seed = 0
+dtype = "float32"
+```
+
+Code reads these through `shared/config.py` instead of hardcoding:
+
+```python
+from shared.config import configure
+device = configure()          # seeds, sets default dtype, returns the device
+```
+
+Override per machine without editing the file via env vars: `AIEM_DEVICE`, `AIEM_SEED`, `AIEM_DTYPE` (e.g. `AIEM_DEVICE=cpu`).
+
+**Convention:** notebooks and experiments call `configure()` and run on the resolved device; unit tests stay pinned to CPU for determinism. Every new topic gets its device from `shared.config` — never hardcode it.
+
 ## Getting started
 
 ```bash
