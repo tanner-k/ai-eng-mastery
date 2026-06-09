@@ -17,7 +17,9 @@ dependencies = [
 package = false
 
 [tool.pytest.ini_options]
-testpaths = ["shared", "scripts", "04-machine-learning"]
+# Discover tests anywhere in the repo so new section exemplars are picked up
+# automatically (pytest skips .venv/.git via default norecursedirs).
+testpaths = ["."]
 addopts = "-q"
 
 [tool.ruff]
