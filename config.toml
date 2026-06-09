@@ -1,0 +1,10 @@
+# Runtime / system configuration for the whole repo.
+# Everything (notebooks, experiments) reads device/seed/dtype from here instead
+# of hardcoding. Override per-machine without editing this file via env vars:
+# AIEM_DEVICE, AIEM_SEED, AIEM_DTYPE.
+[runtime]
+# "auto" resolves to cuda > mps > cpu. On Apple Silicon it resolves to mps.
+device = "auto"
+seed = 0
+# "float32" | "float64" | "bfloat16" | "float16"
+dtype = "float32"
