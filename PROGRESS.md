@@ -10,9 +10,9 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Vectors and Norms | ✅ | ✅ | ✅ | ✅ |
 | Eigendecomposition and SVD | ✅ | ✅ | ✅ | ✅ |
 | **Calculus** | | | | |
-| Derivatives and Partials | ✅ | ⬜ | ✅ | ✅ |
-| The Chain Rule | ✅ | ⬜ | ✅ | ✅ |
-| Gradients and Jacobians | ✅ | ⬜ | ✅ | ✅ |
+| Derivatives and Partials | ✅ | ✅ | ✅ | ✅ |
+| The Chain Rule | ✅ | ✅ | ✅ | ✅ |
+| Gradients and Jacobians | ✅ | ✅ | ✅ | ✅ |
 | **Statistics** | | | | |
 | Probability Basics | ✅ | ⬜ | ✅ | ✅ |
 | Gaussian Distribution | ✅ | ⬜ | ✅ | ✅ |
