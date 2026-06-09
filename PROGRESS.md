@@ -20,7 +20,7 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Bayesian Statistics | ⬜ | ⬜ | ⬜ | ⬜ |
 | Bias-Variance Tradeoff | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Machine Learning** | | | | |
-| Gradient Descent | ⬜ | ⬜ | ⬜ | ⬜ |
+| Gradient Descent | ✅ | ✅ | ✅ | ✅ |
 | Loss Functions | ⬜ | ⬜ | ⬜ | ⬜ |
 | L1 and L2 Regularization | ⬜ | ⬜ | ⬜ | ⬜ |
 | Adam Optimization | ⬜ | ⬜ | ⬜ | ⬜ |
