@@ -1,4 +1,11 @@
-"""From-scratch first-order optimizers. ``step`` returns NEW params (immutable)."""
+"""From-scratch first-order optimizers.
+
+Each ``step(params, grads)`` returns NEW parameter tensors; the input params are
+never mutated in place. The optimizers are intentionally *stateful*: running
+moments (``velocity`` / ``sq`` / ``m`` / ``v``) and the timestep ``t`` are
+updated on the instance each call — that internal state is the one place where
+mutation is by design.
+"""
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -10,6 +17,8 @@ Params = list[torch.Tensor]
 
 @dataclass
 class SGD:
+    """Vanilla (stochastic) gradient descent."""
+
     lr: float = 0.01
 
     def step(self, params: Params, grads: Params) -> Params:
@@ -18,6 +27,8 @@ class SGD:
 
 @dataclass
 class Momentum:
+    """SGD with an EMA-of-gradients velocity term."""
+
     lr: float = 0.01
     beta: float = 0.9
     velocity: Params | None = None
@@ -31,8 +42,10 @@ class Momentum:
 
 @dataclass
 class RMSProp:
+    """Per-coordinate adaptive learning rate via an EMA of squared gradients."""
+
     lr: float = 0.01
-    beta: float = 0.999
+    beta: float = 0.99
     eps: float = 1e-8
     sq: Params | None = None
 
@@ -48,6 +61,8 @@ class RMSProp:
 
 @dataclass
 class Adam:
+    """Adam (Kingma & Ba, 2015): momentum + RMSProp with bias correction."""
+
     lr: float = 0.01
     beta1: float = 0.9
     beta2: float = 0.999
