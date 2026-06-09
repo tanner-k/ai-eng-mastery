@@ -21,10 +21,10 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Bias-Variance Tradeoff | ✅ | ✅ | ✅ | ✅ |
 | **Machine Learning** | | | | |
 | Gradient Descent | ✅ | ✅ | ✅ | ✅ |
-| Loss Functions | ✅ | ⬜ | ✅ | ✅ |
-| L1 and L2 Regularization | ✅ | ⬜ | ✅ | ✅ |
-| Adam Optimization | ✅ | ⬜ | ✅ | ✅ |
-| Evaluation Metrics | ✅ | ⬜ | ✅ | ✅ |
+| Loss Functions | ✅ | ✅ | ✅ | ✅ |
+| L1 and L2 Regularization | ✅ | ✅ | ✅ | ✅ |
+| Adam Optimization | ✅ | ✅ | ✅ | ✅ |
+| Evaluation Metrics | ✅ | ✅ | ✅ | ✅ |
 | Linear Regression | ✅ | ⬜ | ✅ | ✅ |
 | Logistic Regression | ✅ | ⬜ | ✅ | ✅ |
 | Decision Trees | ✅ | ⬜ | ✅ | ✅ |
