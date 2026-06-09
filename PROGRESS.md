@@ -5,44 +5,44 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Topic | Notes | Impl | Interview | Exercises |
 | --- | --- | --- | --- | --- |
 | **Linear Algebra** | | | | |
-| Matrix Multiplication | ⬜ | ⬜ | ⬜ | ⬜ |
-| Broadcasting | ⬜ | ⬜ | ⬜ | ⬜ |
-| Vectors and Norms | ⬜ | ⬜ | ⬜ | ⬜ |
-| Eigendecomposition and SVD | ⬜ | ⬜ | ⬜ | ⬜ |
+| Matrix Multiplication | ✅ | ⬜ | ✅ | ✅ |
+| Broadcasting | ✅ | ⬜ | ✅ | ✅ |
+| Vectors and Norms | ✅ | ⬜ | ✅ | ✅ |
+| Eigendecomposition and SVD | ✅ | ⬜ | ✅ | ✅ |
 | **Calculus** | | | | |
-| Derivatives and Partials | ⬜ | ⬜ | ⬜ | ⬜ |
-| The Chain Rule | ⬜ | ⬜ | ⬜ | ⬜ |
-| Gradients and Jacobians | ⬜ | ⬜ | ⬜ | ⬜ |
+| Derivatives and Partials | ✅ | ⬜ | ✅ | ✅ |
+| The Chain Rule | ✅ | ⬜ | ✅ | ✅ |
+| Gradients and Jacobians | ✅ | ⬜ | ✅ | ✅ |
 | **Statistics** | | | | |
-| Probability Basics | ⬜ | ⬜ | ⬜ | ⬜ |
-| Gaussian Distribution | ⬜ | ⬜ | ⬜ | ⬜ |
-| MLE and Negative Log-Likelihood | ⬜ | ⬜ | ⬜ | ⬜ |
-| Bayesian Statistics | ⬜ | ⬜ | ⬜ | ⬜ |
-| Bias-Variance Tradeoff | ⬜ | ⬜ | ⬜ | ⬜ |
+| Probability Basics | ✅ | ⬜ | ✅ | ✅ |
+| Gaussian Distribution | ✅ | ⬜ | ✅ | ✅ |
+| MLE and Negative Log-Likelihood | ✅ | ⬜ | ✅ | ✅ |
+| Bayesian Statistics | ✅ | ⬜ | ✅ | ✅ |
+| Bias-Variance Tradeoff | ✅ | ⬜ | ✅ | ✅ |
 | **Machine Learning** | | | | |
 | Gradient Descent | ✅ | ✅ | ✅ | ✅ |
-| Loss Functions | ⬜ | ⬜ | ⬜ | ⬜ |
-| L1 and L2 Regularization | ⬜ | ⬜ | ⬜ | ⬜ |
-| Adam Optimization | ⬜ | ⬜ | ⬜ | ⬜ |
-| Evaluation Metrics | ⬜ | ⬜ | ⬜ | ⬜ |
-| Linear Regression | ⬜ | ⬜ | ⬜ | ⬜ |
-| Logistic Regression | ⬜ | ⬜ | ⬜ | ⬜ |
-| Decision Trees | ⬜ | ⬜ | ⬜ | ⬜ |
-| Random Forests and XGBoost | ⬜ | ⬜ | ⬜ | ⬜ |
-| Support Vector Machines | ⬜ | ⬜ | ⬜ | ⬜ |
-| K-Means Clustering | ⬜ | ⬜ | ⬜ | ⬜ |
-| Principal Component Analysis | ⬜ | ⬜ | ⬜ | ⬜ |
-| kNN and Naive Bayes | ⬜ | ⬜ | ⬜ | ⬜ |
+| Loss Functions | ✅ | ⬜ | ✅ | ✅ |
+| L1 and L2 Regularization | ✅ | ⬜ | ✅ | ✅ |
+| Adam Optimization | ✅ | ⬜ | ✅ | ✅ |
+| Evaluation Metrics | ✅ | ⬜ | ✅ | ✅ |
+| Linear Regression | ✅ | ⬜ | ✅ | ✅ |
+| Logistic Regression | ✅ | ⬜ | ✅ | ✅ |
+| Decision Trees | ✅ | ⬜ | ✅ | ✅ |
+| Random Forests and XGBoost | ✅ | ⬜ | ✅ | ✅ |
+| Support Vector Machines | ✅ | ⬜ | ✅ | ✅ |
+| K-Means Clustering | ✅ | ⬜ | ✅ | ✅ |
+| Principal Component Analysis | ✅ | ⬜ | ✅ | ✅ |
+| kNN and Naive Bayes | ✅ | ⬜ | ✅ | ✅ |
 | **Deep Learning** | | | | |
-| Broadcasting in Neural Networks | ⬜ | ⬜ | ⬜ | ⬜ |
-| Backpropagation | ⬜ | ⬜ | ⬜ | ⬜ |
-| Softmax | ⬜ | ⬜ | ⬜ | ⬜ |
-| Cross-Entropy and NLL Loss | ⬜ | ⬜ | ⬜ | ⬜ |
-| Activations: tanh and ReLU | ⬜ | ⬜ | ⬜ | ⬜ |
-| Vanishing and Exploding Gradients | ⬜ | ⬜ | ⬜ | ⬜ |
-| Batch Normalization | ⬜ | ⬜ | ⬜ | ⬜ |
-| Label Smoothing | ⬜ | ⬜ | ⬜ | ⬜ |
-| Convolutional Neural Networks | ⬜ | ⬜ | ⬜ | ⬜ |
+| Broadcasting in Neural Networks | ✅ | ⬜ | ✅ | ✅ |
+| Backpropagation | ✅ | ⬜ | ✅ | ✅ |
+| Softmax | ✅ | ⬜ | ✅ | ✅ |
+| Cross-Entropy and NLL Loss | ✅ | ⬜ | ✅ | ✅ |
+| Activations: tanh and ReLU | ✅ | ⬜ | ✅ | ✅ |
+| Vanishing and Exploding Gradients | ✅ | ⬜ | ✅ | ✅ |
+| Batch Normalization | ✅ | ⬜ | ✅ | ✅ |
+| Label Smoothing | ✅ | ⬜ | ✅ | ✅ |
+| Convolutional Neural Networks | ✅ | ⬜ | ✅ | ✅ |
 | **LLM Engineering** | | | | |
 | Transformers and Attention | ⬜ | ⬜ | ⬜ | ⬜ |
 | Tokenization and Embeddings | ⬜ | ⬜ | ⬜ | ⬜ |
