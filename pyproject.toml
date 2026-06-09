@@ -1,0 +1,25 @@
+[project]
+name = "ai-eng-mastery"
+version = "0.1.0"
+description = "Build-it-yourself AI Engineering curriculum in PyTorch"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "jupyterlab>=4.0",
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["shared", "scripts", "04-machine-learning"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
