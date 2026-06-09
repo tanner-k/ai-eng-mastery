@@ -34,15 +34,15 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 | Principal Component Analysis | ✅ | ✅ | ✅ | ✅ |
 | kNN and Naive Bayes | ✅ | ✅ | ✅ | ✅ |
 | **Deep Learning** | | | | |
-| Broadcasting in Neural Networks | ✅ | ⬜ | ✅ | ✅ |
-| Backpropagation | ✅ | ⬜ | ✅ | ✅ |
-| Softmax | ✅ | ⬜ | ✅ | ✅ |
-| Cross-Entropy and NLL Loss | ✅ | ⬜ | ✅ | ✅ |
-| Activations: tanh and ReLU | ✅ | ⬜ | ✅ | ✅ |
-| Vanishing and Exploding Gradients | ✅ | ⬜ | ✅ | ✅ |
-| Batch Normalization | ✅ | ⬜ | ✅ | ✅ |
-| Label Smoothing | ✅ | ⬜ | ✅ | ✅ |
-| Convolutional Neural Networks | ✅ | ⬜ | ✅ | ✅ |
+| Broadcasting in Neural Networks | ✅ | ✅ | ✅ | ✅ |
+| Backpropagation | ✅ | ✅ | ✅ | ✅ |
+| Softmax | ✅ | ✅ | ✅ | ✅ |
+| Cross-Entropy and NLL Loss | ✅ | ✅ | ✅ | ✅ |
+| Activations: tanh and ReLU | ✅ | ✅ | ✅ | ✅ |
+| Vanishing and Exploding Gradients | ✅ | ✅ | ✅ | ✅ |
+| Batch Normalization | ✅ | ✅ | ✅ | ✅ |
+| Label Smoothing | ✅ | ✅ | ✅ | ✅ |
+| Convolutional Neural Networks | ✅ | ✅ | ✅ | ✅ |
 | **LLM Engineering** | | | | |
 | Transformers and Attention | 🟡 | ⬜ | 🟡 | 🟡 |
 | Tokenization and Embeddings | 🟡 | ⬜ | 🟡 | 🟡 |

@@ -17,6 +17,9 @@ venv/
 *.ckpt
 *.onnx
 
+# Notebook-saved image artifacts (plots should stay inline in the .ipynb)
+*.png
+
 # OS
 .DS_Store
 
