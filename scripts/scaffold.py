@@ -13,11 +13,11 @@ def _write_if_absent(path: Path, content: str) -> None:
     if path.exists():
         return
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content)
+    path.write_text(content, encoding="utf-8")
 
 
 def _render_template(rel: str, topic: Topic) -> str:
-    raw = (_TEMPLATE_DIR / rel).read_text()
+    raw = (_TEMPLATE_DIR / rel).read_text(encoding="utf-8")
     return raw.replace("{{TOPIC_TITLE}}", topic.title)
 
 
@@ -74,7 +74,7 @@ def generate(root: Path) -> None:
         for i, topic in enumerate(section.topics, start=1):
             _scaffold_topic(root, section, i, topic)
     # PROGRESS.md is regenerated each run (it is a derived index, not hand-edited).
-    (root / "PROGRESS.md").write_text(_progress_table())
+    (root / "PROGRESS.md").write_text(_progress_table(), encoding="utf-8")
 
 
 if __name__ == "__main__":
